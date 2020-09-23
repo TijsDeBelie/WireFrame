@@ -1,0 +1,54 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Wireframes</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!--fontawesome-->
+  <script src="https://kit.fontawesome.com/8481dcc1ab.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body onload="cameraLoad()">
+    <div id="gallery"></div>
+  <div class="video_container">
+    <video id="video" autoplay></video>
+    <canvas id="canvas"></canvas>
+
+    <button id="snap">Photo</button>
+    <button id="settings" ><i class="fas fa-cog"></i></button>
+    <button id="map"><i class="fas fa-map-marker-alt"></i></button>
+
+    <div id="settings_screen">
+      <p id="close_settings"><</p>
+      <h2>Settings</h2>
+      <h3>Gegevens</h3>
+      <p><label for="name">Naam</label></p>
+      <input id="name" type="text" value="Kim">
+      <br>
+      <p><label for="age">Leeftijd</label></p>
+      <input id="age" type="text" value="10">
+      <h2>Voorkeuren</h2>
+      <input type="checkbox" id="popup" name="" value="popup">
+      <label for="popup"> Ik wil popups te zien krijgen</label>
+    </div>
+  </div>
+
+  
+    
+
+    
+  <script src="js/index.js"></script>
+  
+  
+</body>
+</html>
